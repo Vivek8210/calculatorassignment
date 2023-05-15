@@ -24,7 +24,7 @@ const Calculator = () => {
       <div className="calculator-main-container">
       <button onClick={clear}>C</button>
       <button onClick={() => handleClick('+/-')}>+/-</button>
-      <button onClick={() => handleClick('+/-')}>%</button>
+      <button onClick={() => handleClick('%')}>%</button>
       <button onClick={() => handleClick('/')} >÷</button>
       <button onClick={() => handleClick('7')} >7</button>
       <button onClick={() => handleClick('8')}>8</button>
